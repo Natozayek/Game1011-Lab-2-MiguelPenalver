@@ -14,7 +14,7 @@ public:
 	double get_Health();
 	void set_Name(string name);
 	void set_Health(double health);
-	void set_Weapon(string name, string description, double damage, string ability);
+	/*void set_Weapon(string name, string description, double damage, string ability);*/
 	virtual void display_Info() = 0;
 	virtual	~Character() {};
 protected:
